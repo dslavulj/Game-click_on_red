@@ -29,12 +29,10 @@ def about():
     abo.geometry('300x150')
     td1=Label(abo,text='Ime i prezime: Danijel Slavulj',font=("Helvetica", 9))
     td1.place(x=10,y=10)
-    td2=Label(abo,text='Kontakt telefon: 0956379498',font=("Helvetica", 9))
+    td2=Label(abo,text='Kontakt telefon: x',font=("Helvetica", 9))
     td2.place(x=10,y=30)
     td3=Label(abo,text='Kontakt email: danijel_slavulj@hotmail.com',font=("Helvetica", 9))
     td3.place(x=10,y=50)
-    td4=Label(abo,text='Adresa: A. Mihanovica 82 Kutina',font=("Helvetica", 9))
-    td4.place(x=10,y=70)
     def closea():
         abo.destroy()
     bd= ttk.Button(abo, text = 'OK', command=closea)
