@@ -1,4 +1,4 @@
-# Game-click_on_red
+# Game-Click on red
 
 Mini game made with tinker in python.
 Croatian language.
